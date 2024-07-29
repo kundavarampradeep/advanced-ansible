@@ -2,4 +2,4 @@
   hosts: centos
   tasks:
   - name: print a message
-    ansible.builtin.shell: echo Hello from ansible server > /tmp/hello.text
+    ansible.builtin.shell: echo Hello from ansible server > /tmp/hello.txt
